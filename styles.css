@@ -24,3 +24,27 @@ footer {
 div > a {
   color: white
 }
+
+img {
+  height: 500px;
+}
+
+h1 {
+  color: blue
+}
+
+.blink_me {
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  49% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  99% {
+    opacity: 0
+  }
+}
